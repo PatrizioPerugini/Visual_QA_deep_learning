@@ -4,10 +4,8 @@ qv_size: 1000
 av_size: 1000
 lr: 0.0003
 wd: 0
-word_emb_dim: 300
-lstm_hidden_dim: 512
-lstm_num_layers: 2
-output_dim: 1024
-bidirectional: false
 dropout: 0.3
 trainable_embeddings: true
+prediction_strategy_top: 5
+embedding_strategy: simple
+loss_strategy: simple

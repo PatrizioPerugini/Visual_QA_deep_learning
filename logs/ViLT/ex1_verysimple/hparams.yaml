@@ -1,0 +1,11 @@
+batch_size: 256
+n_cpu: 8
+qv_size: 1000
+av_size: 1000
+lr: 0.0003
+wd: 0
+dropout: 0.3
+trainable_embeddings: true
+prediction_strategy_top: 1
+embedding_strategy: simple
+loss_strategy: simple
